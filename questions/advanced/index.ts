@@ -1,6 +1,6 @@
 export const questions = [
   {
-    question: "This is the question",
+    question: "1. This is the question",
     goal: "This is the goal of the question",
     codeSample: `
 function two() {
