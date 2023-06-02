@@ -1,3 +1,4 @@
+"use client"
 import { questions } from "@/questions/advanced"
 import Question from "./components/Question"
 
