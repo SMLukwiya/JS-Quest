@@ -1,5 +1,5 @@
 "use client"
-import { questions } from "@/questions/advanced"
+
 import closure from '../questions/advanced/closures'
 import Question from "./components/Question"
 import Image from "next/image"
@@ -20,9 +20,9 @@ export default function Home() {
         just head over to github and follow the guide <Link href="https://github.com/SMLukwiya/JS-Quest" target="__blank" className="font-bold underline text-blue-300">GitHub</Link>.
         Don&apos;t forget to add that star ⭐ on github 🔥.
         </p>
+        
       <div className="w-full md:w-3/4">
         <Question md={closure} />
-        {/* {questions.map((question) => <Question key={question.question} {...question} />)} */}
       </div>
     </main>
   )
