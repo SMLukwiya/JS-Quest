@@ -1,9 +1,11 @@
 "use client"
 
-import closure from '../questions/advanced/closures'
 import Question from "./components/Question"
 import Image from "next/image"
 import Link from "next/link"
+// 
+import closure from '../questions/advanced/1-closures'
+import thisKeyword from "../questions/advanced/2-this"
 
 export default function Home() {
   return (
@@ -23,6 +25,7 @@ export default function Home() {
         
       <div className="w-full md:w-3/4">
         <Question md={closure} />
+        <Question md={thisKeyword} />
       </div>
     </main>
   )

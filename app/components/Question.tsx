@@ -30,7 +30,7 @@ export default function Question({md}: {md: string}) {
     }
 
     return (
-        <div>
+        <div className="my-10">
             <ReactMarkdown 
                 className={markdownStyle["markdown-body"]}
                 remarkPlugins={[remarkGfm]}
